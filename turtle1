@@ -1,0 +1,45 @@
+import turtle
+
+wn = turtle.Screen()        #Create a screen for my turtle to move around in
+wn.bgcolor("light blue")       #Make the background color of the screen red
+wn.clearscreen()
+wn.title("My awesome creation!")
+bob = turtle.Turtle()         #Create a turtle named bob
+bob.color("dark blue")
+bob.shape("turtle")
+bob.forward(150)           #Move bob forward 150 pixels
+bob.left(90)                    #Turn bob left 90 degrees
+bob.forward(250)           #Move bob forward 100 pixels
+shelly = turtle.Turtle()     #another turtle but named shelly
+shelly.color("magenta")
+shelly.pensize(20)
+shelly.goto(-100,0)
+shelly.left(45)
+shelly.forward(350)
+shelly.write("hello bob, nice to meet you")
+
+
+''' QUESTIONS/MODIFICATIONS
+
+    1.  How do you write in 'comments' for humans that will not be seen
+    as code?
+    
+    2.  What are the 'variables' (what can be changed) in this program? 
+    
+    3.  Make a rectangular shape on the screen 
+      
+    4.  Create another turtle (with a different name) and make your new turtle move too
+
+    5.  Play around with the commands forward, left, etc. and make a variety of shapes with
+    your turtles.
+    
+    6.  Go to  https://docs.python.org/3.0/library/turtle.html which will give you
+a whole bunch of information about turtles!!  Play around with some of the
+methods you see and make a picture of your own.  We will do a 'gallery walk' to see your 
+creation!
+
+Formal Definitions:  
+You just learned about objects (bob and alice),  methods (forward, left), and parameters (150, 90, 100, etc)
+objects call on methods which take a parameter and perform something. For example, my turtle object bob
+called on the method forward with a parameter of 150.  This made bob move forward 150 steps!
+'''
